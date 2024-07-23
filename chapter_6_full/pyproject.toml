@@ -1,0 +1,19 @@
+[tool.pylint.messages_control]
+
+disable = [
+    "missing-function-docstring",
+    "missing-final-newline",
+    "missing-class-docstring",
+    "missing-module-docstring",
+    "invalid-name",
+    "too-few-public-methods",
+    "wrong-import-position"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+
+[tool.isort]
+multi_line_output = 3
+force_alphabetical_sort = true
